@@ -1,0 +1,24 @@
+{
+    "name": "CopyIt",
+    "version": "1.0",
+    "description": "Enables copy in Terv platform",
+    "permissions": ["activeTab","declarativeContent","storage"],
+    "background":{
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": "images/icon.png"
+          
+        }
+
+    },
+    "icons": {
+        "32": "images/icon.png"
+
+        
+    },
+    "manifest_version": 2
+}
